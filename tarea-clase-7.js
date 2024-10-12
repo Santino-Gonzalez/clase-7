@@ -4,3 +4,11 @@
 *
 * Adicional: Escribir pruebas para las funciones de tareas anteriores.
 */
+
+function validarCiudad (ciudad){
+    if(ciudad === ""){
+        console.error("Debe seleccionar su ciudad.");
+    }else{
+        console.log("Se ha validado correctamente la ciudad del usuario.");
+    }
+}
