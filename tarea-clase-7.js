@@ -20,3 +20,11 @@ function validarDescripcionRegalo (descripcion){
         console.log("Se ha validado correctamente la descripción del regalo.");
     }
 }
+
+document.querySelector("#enviar-carta").onclick = () => {
+    let ciudad = document.querySelector("#ciudad").value;
+    let descripcion = document.querySelector("#descripcion-regalo").value;
+    validarCiudad(ciudad);
+    validarDescripcionRegalo(descripcion);
+    event.preventDefault();
+}
