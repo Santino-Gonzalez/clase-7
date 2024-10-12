@@ -12,3 +12,11 @@ function validarCiudad (ciudad){
         console.log("Se ha validado correctamente la ciudad del usuario.");
     }
 }
+
+function validarDescripcionRegalo (descripcion){
+    if(descripcion === ""){
+        console.error("Debe ingresar una descripción para el regalo.");
+    }else{
+        console.log("Se ha validado correctamente la descripción del regalo.");
+    }
+}
