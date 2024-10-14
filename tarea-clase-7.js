@@ -21,7 +21,7 @@ function validarDescripcionRegalo (descripcion){
     }
 }
 
-document.querySelector("#enviar-carta").onclick = () => {
+document.querySelector("#enviar-carta").onclick = (event) => {
     let ciudad = document.querySelector("#ciudad").value;
     let descripcion = document.querySelector("#descripcion-regalo").value;
     validarCiudad(ciudad);
